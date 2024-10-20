@@ -1,7 +1,7 @@
 # FIAP - Faculdade de Informática e Administração Paulista
 [![FIAP Logo](images/logo-fiap.png)](https://www.fiap.com.br)
 
-## Fase 3 Cap 1 – Construindo uma máquina agrícola
+## Fase 3 Cap 12 – A Eletrônica de uma IA
 [GitHub](https://github.com/pedrosof/Fase3_Cap1)
 ### Grupo 18
 

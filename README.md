@@ -18,6 +18,16 @@
 
 ---
 
+## 📁 Estrutura de Pastas
+
+- **src**: Códigos fontes.
+- **README.md**: Este arquivo com a explicação geral sobre o projeto.
+- **docs**: Documentação sobre o projeto
+- **tests**: Testes executados
+- **images**: Imagens documentacionais.
+
+---
+
 # Sistema de Irrigação Automatizada com ESP32
 
 ![Sistema de Sensores](images/wokwi.png)

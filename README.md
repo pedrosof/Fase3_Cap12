@@ -20,6 +20,8 @@
 
 # Sistema de Irrigação Automatizada com ESP32
 
+![Sistema de Sensores](images/wokwi.png)
+
 [Link para o Projeto Wokwi](https://wokwi.com/projects/412301184401222657)
 
 Este projeto utiliza um **ESP32** para controlar a irrigação automaticamente com base em sensores de umidade (DHT22), nível de água (HC-SR04), luminosidade (LDR) e detecção de movimento (PIR).

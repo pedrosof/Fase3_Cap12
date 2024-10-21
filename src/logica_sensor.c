@@ -61,10 +61,8 @@ void loop() {
   Serial.println(" cm");
 
   if (distance > NIVEL_AGUA_MAXIMO) {
-    Serial.println("Nível de água excede o máximo permitido, desativando irrigação.");
-    digitalWrite(LED_PIN, LOW);  // Desliga a irrigação
-    delay(2000);
-    return;
+    Serial.println("Nível de água excede o máximo permitido");
+    // Não desliga a irrigação aqui, mas emite o aviso.
   }
 
   // ===== Leitura da Luminosidade (LDR) =====
@@ -111,7 +109,7 @@ void loop() {
   }
 
   // ===== Condições para LIGAR a irrigação =====
-  if (humidity < UMIDADE_MINIMA && distance > NIVEL_AGUA_MINIMO && ldrValue < LDR_THRESHOLD_ENSOLARADO) {
+  if (humidity < UMIDADE_MINIMA && distance >= NIVEL_AGUA_MINIMO && ldrValue < LDR_THRESHOLD_ENSOLARADO) {
     Serial.println("Condições adequadas, ativando irrigação.");
     digitalWrite(LED_PIN, HIGH);  // Liga a irrigação
   }
